@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginHorizontal="15px"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/placeholder_for_missing_posters"
+        android:scaleType="fitXY"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvPoster"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Romantic Comedy"
+        android:textAlignment="center"
+        android:textColor="@color/grey"
+        android:layout_marginTop="24px"
+        android:textSize="16dp"
+        />
+
+
+</LinearLayout>
+</layout>

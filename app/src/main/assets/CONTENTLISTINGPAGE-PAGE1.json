@@ -1,0 +1,112 @@
+{
+  "page": {
+    "title": "Romantic Comedy",
+    "total-content-items" : "54",
+    "page-num" : "1",
+    "page-size" : "20",
+    "content-items": {
+      "content": [
+        {
+          "id": 1,
+          "name": "The Birds",
+          "poster-image": "poster1.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Rear Window",
+          "poster-image": "poster2.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Family Pot",
+          "poster-image": "poster3.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Family Pot",
+          "poster-image": "poster2.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Rear Window",
+          "poster-image": "poster1.jpg"
+        },
+        {
+          "id": 6,
+          "name": "The Birds",
+          "poster-image": "poster3.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Rear Window",
+          "poster-image": "poster3.jpg"
+        },
+        {
+          "id": 8,
+          "name": "The Birds",
+          "poster-image": "poster2.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Family Pot",
+          "poster-image": "poster1.jpg"
+        },
+        {
+          "id": 10,
+          "name": "The Birds",
+          "poster-image": "poster1.jpg"
+        },
+        {
+          "id": 11,
+          "name": "The Birds",
+          "poster-image": "poster1.jpg"
+        },
+        {
+          "id": 12,
+          "name": "Rear Window",
+          "poster-image": "poster2.jpg"
+        },
+        {
+          "id": 13,
+          "name": "Family Pot",
+          "poster-image": "poster3.jpg"
+        },
+        {
+          "id": 14,
+          "name": "Family Pot",
+          "poster-image": "poster2.jpg"
+        },
+        {
+          "id": 15,
+          "name": "Rear Window",
+          "poster-image": "poster1.jpg"
+        },
+        {
+          "id": 16,
+          "name": "The Birds",
+          "poster-image": "poster3.jpg"
+        },
+        {
+          "id": 17,
+          "name": "Rear Window",
+          "poster-image": "poster3.jpg"
+        },
+        {
+          "id": 18,
+          "name": "The Birds",
+          "poster-image": "poster2.jpg"
+        },
+        {
+          "id": 19,
+          "name": "Family Pot",
+          "poster-image": "poster1.jpg"
+        },
+        {
+          "id": 20,
+          "name": "The Birds",
+          "poster-image": "poster1.jpg"
+        }
+      ]
+    }
+  }
+}
