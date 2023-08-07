@@ -1,5 +1,6 @@
 package com.example.diagnalcloneapp.adapter
 
+import android.content.res.Configuration
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -55,14 +56,28 @@ class PosterListingAdapter(
     ) : RecyclerView.ViewHolder(binding.root) {
 
         fun bind(item: PosterItemDTO.Page.ContentItems.Content) {
-            if(position==0|| position==1|| position==2){
-                binding.root.setPadding(0, 0,0, 0)
-            }else{
-                binding.root.setPadding(0, Utils.dpToPx(binding.root.context, 40),0,0)
-            }
+            //updateItemHeight(position)
             Glide.with(binding.root.context).load(
                 getImage(item.posterImage)).into(binding.ivPoster)
             binding.tvPoster.text=item.name
+        }
+    }
+    fun updateItemHeight(position: Int) {
+        val orientation = this.binding.root.context.resources.configuration.orientation
+        if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            // Landscape mode
+            if(position<=6){
+                this.binding.root.setPadding(0, 0,0, 0)
+            }else{
+                this.binding.root.setPadding(0, Utils.dpToPx(this.binding.root.context, 40),0,0)
+            }
+        } else {
+            // Portrait mode
+            if(position<=2){
+                this.binding.root.setPadding(0, 0,0, 0)
+            }else{
+                this.binding.root.setPadding(0, Utils.dpToPx(this.binding.root.context, 40),0,0)
+            }
         }
     }
 
